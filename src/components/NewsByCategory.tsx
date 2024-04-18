@@ -22,13 +22,13 @@ const NewsByCategory: React.FC<Props> = ({ data, category }) => {
             .filter((type: NewsType) => type.name === category)
             .map((type: NewsType) => (
               <div key={type.id}>
-                <h3 className='text-center'>{type.name}</h3>
+                <h3 className='text-center text-lg'>{type.name}</h3>
                 {/* Map through each news item within the category */}
                 <div className='m-[2em]'>
                   {type.news_type.sort(sortByDate).map((news: News) => (
                     <div key={news.id} className='border-solid rounded-lg shadow-lg px-7 py-10'>
                       <Link
-                        to={{ pathname: `/detailnew/${news.id}`, state: { news } }}>
+                        to={{ pathname: `/detailnew/${news.id}`}}>
                         <p className='text-gray-400'>{news.date}</p>
                         <p>{news.headline}</p>
                         <p>{news.content}</p>

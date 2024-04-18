@@ -8,7 +8,7 @@ function MainPage() {
     <div>
         <div className='shadow-lg m-[5em] grid col-1 justify-center items-center border-solid rounded-lg p-[2em]'>
             <img src={mainpage_img} className='content-center mb-[3em]'/>
-            <button onClick={()=>navigator('/homepage')} className='bg-[#0a2d3e] text-white border-solid rounded-lg h-[3em] w-[8em]'>เข้าสู่เว็บไซต์</button>
+            <button onClick={()=>navigator('/homepage')} className='bg-[#0a2d3e] text-white border-solid rounded-lg h-[3em] w-[8em] ml-[6em]'>เข้าสู่เว็บไซต์</button>
         </div>
     </div>
   )
