@@ -1,0 +1,21 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* :root {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+} */
+
+
+/* body {
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 100vh;
+    min-height: 100vh;
+} */
